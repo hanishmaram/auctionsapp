@@ -1,0 +1,21 @@
+> dotnet new sln
+
+> dotnet new webapi -o src/AuctionService --use-controllers
+
+> dotnet sln add src/AuctionService
+
+> dotnet tool list -g --> You should have the dotnet-ef --> if not available --> dotnet tool install dotnet-ef -g
+
+
+> dotnet ef migrations add "IntitialCreate" -o Data/Migrations
+
+> docker compose up -d
+
+> dotnet ef database update
+
+> dotnet ef database drop
+
+
+> git init
+
+> dotnet new gitignore
