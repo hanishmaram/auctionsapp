@@ -23,3 +23,9 @@
 
 > dotnet new webapi -o src/SearchService --use-controllers
 > dotnet sln add src/SearchService
+
+
+
+
+> docker volume list
+> docker volume rm <volume-name>
