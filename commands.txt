@@ -19,3 +19,7 @@
 > git init
 
 > dotnet new gitignore
+
+
+> dotnet new webapi -o src/SearchService --use-controllers
+> dotnet sln add src/SearchService
