@@ -29,3 +29,5 @@
 
 > docker volume list
 > docker volume rm <volume-name>
+
+> docker compose down
